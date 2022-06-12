@@ -8,6 +8,7 @@ public class Swapping {
         a = a^b;
         b = a^b;
         a = a^b;
+
         System.out.println("Value of a after swapping:"+a);
         System.out.println("Value of b after swapping:"+b);
     }
