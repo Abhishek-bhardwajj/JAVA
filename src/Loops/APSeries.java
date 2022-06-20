@@ -8,7 +8,7 @@ public class APSeries {
         System.out.println("Enter the value of a and d");
         int a = sc.nextInt();
         int d = sc.nextInt();
-        System.out.println("Enter the number of elements");
+        System.out.print("Enter the number of elements");
         int n = sc.nextInt();
         int term = a;
         for(int i = 0; i<n; i++){
