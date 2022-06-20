@@ -12,7 +12,7 @@ public class APSeries {
         int n = sc.nextInt();
         int term = a;
         for(int i = 0; i<n; i++){
-            System.out.print(term+" ");
+            System.out.print(term+",");
             term+=d;
         }
     }
